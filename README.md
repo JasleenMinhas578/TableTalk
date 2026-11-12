@@ -253,6 +253,9 @@ tests/        pytest suite
 
 ## What's next
 
+The full project plan, with progress and future work, is in [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md).
+
+
 - Run the SQL eval on Qwen 7B vs 14B and record the results.
 - Let users add, remove and fix links on the data map.
 - Feed real questions from Langfuse back into the golden test set.
