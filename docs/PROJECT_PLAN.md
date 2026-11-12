@@ -34,8 +34,9 @@ Everything in the original plan is built, and the website is running; the next s
 | Website (upload, data map, chat, playground) | Done, running | `frontend/` |
 | Automated tests (about 60) | Done | `tests/` |
 | SQL eval (local and Langfuse experiment) | Built, not yet run | `evals/` |
-| README with diagrams | Done | `README.md` |
+| README with diagrams and screenshots | Done | `README.md` |
 | Editable data-map links | Future | see Future plan |
+| Docker + free public link (Hugging Face Space) | Planned | see Deployment |
 
 ## Tech stack
 
@@ -239,4 +240,41 @@ All planned phases are built; only running the SQL eval is left from the origina
 - **Grow the golden sets from real use:** label real messages and queries from Langfuse and add them to the router and SQL test sets (never to training).
 - **More file types:** Parquet and JSON uploads.
 - **Charts on request:** an optional chart view only when the user asks for one.
-- **README screenshot** of the home page.
+
+## Deployment: run anywhere, share a free public link
+
+The same code runs in three ways, and only the settings change. It costs nothing: no paid APIs and no GPU.
+
+| Mode | Who it's for | How it starts | Models |
+| --- | --- | --- | --- |
+| Local | Me, on my Mac | uv + Ollama + npm dev server | qwen2.5-coder:7b, llama3.2:3b |
+| Docker | Anyone, on their own laptop (8–16 GB RAM) | `docker compose up`, open localhost:8000 | Same as local |
+| Hugging Face Space | Anyone, through a public link | Free CPU Space (2 vCPU, 16 GB RAM) | qwen2.5-coder:3b, llama3.2:3b |
+
+**Space description:** TableTalk: upload a spreadsheet and ask questions about it in plain English or Hinglish. A local AI writes and runs the SQL for you.
+
+### Build steps (handed to Claude Code)
+
+1. Move every model name, Ollama URL and data path into `app/config.py`, read from .env.
+2. Let FastAPI serve the built React frontend, so one port runs the whole app.
+3. Write a multi-stage Dockerfile (Node builds the frontend, Python with uv runs the app).
+4. Write docker-compose.yml: Ollama plus the app, with models pulled on first start.
+5. Add `deploy/hf-space/`: one container running Ollama and the app on port 7860, with lighter models.
+6. Add .env.example with local, Docker and cloud profiles, and update the README's "Run it" section.
+7. Keep `uv run pytest` passing and the local flow unchanged.
+
+### Creating the Hugging Face Space
+
+1. Make a free account on huggingface.co.
+2. Create a Space: New Space, type Docker, free CPU hardware, public.
+3. Create an access token with write permission under Settings, then Access Tokens.
+4. Copy `deploy/hf-space/` into the Space's git repo, commit, and push, using the token as the password.
+5. Watch the build logs. The first build takes a few minutes because it downloads the models.
+6. Share the link: huggingface.co/spaces/\<your-name>/tabletalk.
+
+### Limits of the free tier
+
+- Answers take roughly 20–60 seconds on CPU.
+- The Space sleeps when idle, so the first visitor waits while it wakes up.
+- Uploaded files are not kept, which is fine for a demo.
+- For live interviews, a Cloudflare Tunnel from the Mac gives a fast link while the Mac is on.

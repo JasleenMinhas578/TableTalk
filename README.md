@@ -265,6 +265,7 @@ tests/        pytest suite
 The full project plan, with progress and future work, is in [docs/PROJECT_PLAN.md](docs/PROJECT_PLAN.md).
 
 
+- **Run anywhere:** a Docker setup (`docker compose up` on any laptop) and a free public link on a Hugging Face Space. See the Deployment section of the project plan.
 - Run the SQL eval on Qwen 7B vs 14B and record the results.
 - Let users add, remove and fix links on the data map.
 - Feed real questions from Langfuse back into the golden test set.
