@@ -6,7 +6,12 @@ Everything runs on your own computer: local models through Ollama, no paid APIs,
 
 **Built with:** Ollama (Qwen2.5-Coder 7B, Llama 3.2 3B) · LangGraph · DuckDB · sqlglot · scikit-learn · FastAPI · React · Langfuse
 
-![TableTalk asking questions about the bank card fraud sample](docs/images/tabletalk-ask.png)
+![TableTalk home page: drop in a spreadsheet and ask it anything](docs/images/home.png)
+
+<p>
+  <img src="docs/images/ask.png" alt="Ask tab: starter questions built from the online shop sample" width="49%">
+  <img src="docs/images/data-map.png" alt="Data map: orders linked to customers and products" width="49%">
+</p>
 
 ## What it does
 
