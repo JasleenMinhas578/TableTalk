@@ -4,6 +4,10 @@
 
 Everything runs on your own computer: local models through Ollama, no paid APIs, and no data leaves the machine.
 
+**Built with:** Ollama (Qwen2.5-Coder 7B, Llama 3.2 3B) · LangGraph · DuckDB · sqlglot · scikit-learn · FastAPI · React · Langfuse
+
+![TableTalk asking questions about the bank card fraud sample](docs/images/tabletalk-ask.png)
+
 ## What it does
 
 | Feature | What it does | How it works |
