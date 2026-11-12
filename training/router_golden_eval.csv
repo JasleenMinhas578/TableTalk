@@ -1,0 +1,91 @@
+text,intent
+how much did each customer spend in total,sql
+which product sold the most units,sql
+show orders from october,sql
+who are my top 3 buyers in Mumbai,sql
+count orders by status,sql
+what's the revenue per category,sql
+list customers who never placed an order,sql
+average order quantity,sql
+which month had the highest sales,sql
+how many orders got cancelled,sql
+pending orders for laptops,sql
+total units of mouse sold this year,sql
+customers who signed up in 2025,sql
+orders above 3 items,sql
+kitne orders deliver hue?,sql
+sabse zyada kharcha kisne kiya,sql
+revenue split by city,sql
+give me the 10 most recent orders,sql
+which products have never been ordered,sql
+compare delivered vs shipped orders,sql
+what percent of orders are pending,sql
+biggest single order by value,sql
+sales of electronics vs accessories,sql
+how many customers in toronto,sql
+number of distinct products bought by each customer,sql
+what's in my data,dataset
+which sheets did you load,dataset
+what columns does orders have,dataset
+how is orders linked to products,dataset
+what does signup_date mean,dataset
+is price stored as a number,dataset
+which column is the key for customers,dataset
+how many rows does the products table have,dataset
+tell me about the customers table,dataset
+what kind of questions can I ask about these tables,dataset
+are there any relationships between my tables,dataset
+what's the difference between product_id and order_id,dataset
+mere data mein kya kya hai,dataset
+which table has the status column,dataset
+can you describe my schema,dataset
+what are the column types in orders,dataset
+"did the upload work, what tables are there",dataset
+is there a date column,dataset
+which file did the orders table come from,dataset
+what does the quantity column contain,dataset
+hey!,small_talk
+heyy how's it going,small_talk
+thx,small_talk
+thank u,small_talk
+ok great,small_talk
+"perfect, thanks!",small_talk
+you're awesome,small_talk
+good afternoon,small_talk
+who made you?,small_talk
+what are you?,small_talk
+hello again,small_talk
+nice work,small_talk
+shukriya,small_talk
+namaste,small_talk
+cool cool,small_talk
+bye for now,small_talk
+how do you work?,small_talk
+are you a bot?,small_talk
+great job,small_talk
+hmm interesting,small_talk
+what's the score in the india match,off_topic
+write a haiku about rain,off_topic
+how tall is the eiffel tower,off_topic
+suggest a good book,off_topic
+what's the temperature in toronto,off_topic
+how do i make chai,off_topic
+who is the CEO of microsoft,off_topic
+explain blockchain,off_topic
+write a cover letter for me,off_topic
+convert 100 dollars to rupees,off_topic
+what's trending on twitter,off_topic
+how do i fix a flat tyre,off_topic
+tell me a fun fact,off_topic
+what's 15% of 2400,off_topic
+who won the oscar for best picture,off_topic
+aaj ka mausam kaisa hai,off_topic
+how do i learn guitar,off_topic
+what's the population of canada,off_topic
+draft a tweet about my startup,off_topic
+what is chatgpt,off_topic
+best restaurants near me,off_topic
+how do i reset my iphone,off_topic
+what's the GDP of India,off_topic
+write python to scrape a website,off_topic
+should i buy tesla stock,off_topic

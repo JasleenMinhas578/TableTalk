@@ -1,0 +1,40 @@
+[project]
+name = "tabletalk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JasleenMinhas578", email = "jasleen.minhas578@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=2.0.0",
+    "fastapi>=0.162.4",
+    "langchain-ollama>=1.1.0",
+    "langfuse>=5.2.0",
+    "langgraph>=1.2.20",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.33",
+    "scikit-learn>=1.9.1",
+    "sqlglot>=30.31.0",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+tabletalk = "tabletalk:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+markers = ["ollama: needs Ollama running (set RUN_OLLAMA_TESTS=1)"]

@@ -1,0 +1,949 @@
+text,intent,source
+"Hey, how's it going?",small_talk,how are you?
+What's up with you?,small_talk,how are you?
+How u doing?,small_talk,how are you?
+How are things with you?,small_talk,how are you?
+How's it hanging?,small_talk,how are you?
+"Pls fix my wifi, it's not working.",off_topic,Fix my wifi
+WiFi is broken. Can you help me fix it?,off_topic,Fix my wifi
+"My wifi is down. Need your help to fix it, please.",off_topic,Fix my wifi
+WiFi isn't working. Can you fix it for me?,off_topic,Fix my wifi
+"Fix my wifi, it's really annoying.",off_topic,Fix my wifi
+What's the time in London?,off_topic,What time is it in London?
+Could you tell me the current time in London?,off_topic,What time is it in London?
+"Hi, do you know what time it is in London?",off_topic,What time is it in London?
+Quick question: what time is it in London?,off_topic,What time is it in London?
+"Hey, what time is it in London right now?",off_topic,What time is it in London?
+Could you please divide the expenses by their status and the month they occurred in?,sql,Break down expenses by status and month
+I need to see a breakdown of expenses sorted by their status and the month they were incurred.,sql,Break down expenses by status and month
+Can you break down the expenses by their current status and the month they happened?,sql,Break down expenses by status and month
+Please organize the expenses by their status and the month they were made.,sql,Break down expenses by status and month
+Could you show me a breakdown of expenses categorized by their status and month?,sql,Break down expenses by status and month
+Tysm!,small_talk,thank you so much
+Thanks a million!,small_talk,thank you so much
+Big thanks to you!,small_talk,thank you so much
+A huge thank you!,small_talk,thank you so much
+Thanks sooo much!,small_talk,thank you so much
+"Hey, can you explain the revenue table to me?",dataset,Describe the revenue table
+Could you give me a rundown of the revenue table?,dataset,Describe the revenue table
+What's the deal with the revenue table?,dataset,Describe the revenue table
+Can you tell me all about the revenue table?,dataset,Describe the revenue table
+"Hey, I need some info on the revenue table. What's up with it?",dataset,Describe the revenue table
+What's the deal with expenses and customers?,dataset,How are expenses and customers connected?
+How do expenses and customers link up?,dataset,How are expenses and customers connected?
+Do expenses and customers have any connection?,dataset,How are expenses and customers connected?
+Is there any relation between expenses and customers?,dataset,How are expenses and customers connected?
+What's the connection between expenses and customers?,dataset,How are expenses and customers connected?
+Hello there!,small_talk,hi
+Hi!,small_talk,hi
+"Hey, what's up?",small_talk,hi
+Greetings!,small_talk,hi
+"Hi, how's it going?",small_talk,hi
+"Hey, can you explain how vaccines work? I'm curious!",off_topic,How do vaccines work?
+I've been wondering about vaccines. How exactly do they work?,off_topic,How do vaccines work?
+Do you know how vaccines function? I'd love to learn more!,off_topic,How do vaccines work?
+What's the science behind vaccines? Can you break it down for me?,off_topic,How do vaccines work?
+I'm totally new to vaccines. How do they actually work?,off_topic,How do vaccines work?
+What's the total number of customers per city?,sql,sum of customers per city
+Can you show me the sum of customers grouped by city?,sql,sum of customers per city
+How many customers are in each city?,sql,sum of customers per city
+What's the count of customers for each city?,sql,sum of customers per city
+Could you list the total number of customers per city?,sql,sum of customers per city
+Compare customers by city,sql,Compare customers across each city
+Compare customers across different cities,sql,Compare customers across each city
+Compare customers city by city,sql,Compare customers across each city
+Compare customers in various cities,sql,Compare customers across each city
+Compare customers from each city,sql,Compare customers across each city
+What did I upload to the dataset?,dataset,What data did I upload?
+Can you tell me what I uploaded?,dataset,What data did I upload?
+What files did I add to the dataset?,dataset,What data did I upload?
+Do you have a record of what I uploaded?,dataset,What data did I upload?
+Could you check what files I uploaded to the dataset?,dataset,What data did I upload?
+"Split invoices by month, please.",sql,Break down invoices by month and month
+Could you break down the invoices month by month?,sql,Break down invoices by month and month
+Could you sort the invoices by month?,sql,Break down invoices by month and month
+Can you list the invoices by month?,sql,Break down invoices by month and month
+"Break invoices into monthly groups, thanks.",sql,Break down invoices by month and month
+What does the month column stand for?,dataset,What does the month column mean?
+Can someone explain what the month column is about?,dataset,What does the month column mean?
+What information is the month column showing?,dataset,What does the month column mean?
+What does the month column represent?,dataset,What does the month column mean?
+Could you tell me what the month column means?,dataset,What does the month column mean?
+Do we have a department column in our data?,dataset,Is there a department column anywhere?
+Is there a department field anywhere in our dataset?,dataset,Is there a department column anywhere?
+Does our dataset include a department column?,dataset,Is there a department column anywhere?
+Can anyone confirm if we have a department column in our data?,dataset,Is there a department column anywhere?
+Does anyone know if our dataset has a department column?,dataset,Is there a department column anywhere?
+You're a lifesaver!,small_talk,you're helpful
+Thanks a ton for your help!,small_talk,you're helpful
+"You rock, really!",small_talk,you're helpful
+I appreciate your support!,small_talk,you're helpful
+You're amazing!,small_talk,you're helpful
+What's the date with the most invoices?,sql,Which date has the most invoices?
+Which day had the most invoices?,sql,Which date has the most invoices?
+Can you tell me which date has the highest number of invoices?,sql,Which date has the most invoices?
+I need to know the date with the most invoices. Can you help?,sql,Which date has the most invoices?
+Any idea which date has the most invoices?,sql,Which date has the most invoices?
+"Could you give me the details on the payments table, please?",dataset,Describe the payments table
+What's the structure of the payments table?,dataset,Describe the payments table
+Could you explain what the payments table contains?,dataset,Describe the payments table
+"I need information about the payments table, can you provide it?",dataset,Describe the payments table
+What columns and data types are included in the payments table?,dataset,Describe the payments table
+Talk to you later!,small_talk,see you
+Catch you soon!,small_talk,see you
+See you around!,small_talk,see you
+Hope to see you!,small_talk,see you
+Looking forward to seeing you!,small_talk,see you
+What's the total value of all items?,sql,What is the sum of products?
+Can you give me the sum of everything?,sql,What is the sum of products?
+How much do all the products add up to?,sql,What is the sum of products?
+What is the total value of the products?,sql,What is the sum of products?
+Could you calculate the sum of all items for me?,sql,What is the sum of products?
+Can you show me the sales data for the highest-performing region?,sql,Find sales with the highest region
+"What's the breakdown of sales by region, showing the top performer?",sql,Find sales with the highest region
+Could you pull up the sales numbers for the region that's bringing in the most revenue?,sql,Find sales with the highest region
+Which region is generating the most sales? Can you display that data for me?,sql,Find sales with the highest region
+How can I see which region has the highest sales figures?,sql,Find sales with the highest region
+Can u help me?,small_talk,can you help me?
+Could u please assist me?,small_talk,can you help me?
+"Hey, can u help?",small_talk,can you help me?
+"I need some help, can u?",small_talk,can you help me?
+"U can help me, right?",small_talk,can you help me?
+"Hey, could u tell me a bit about World War 2? I'm curious.",off_topic,Tell me about World War 2
+Any quick facts about World War 2 you could share?,off_topic,Tell me about World War 2
+"World War 2, what was that all about? Briefly, please.",off_topic,Tell me about World War 2
+Could you give me a rundown of World War 2? I'm interested in the basics.,off_topic,Tell me about World War 2
+What was the big deal with World War 2? Anyone wanna share some info?,off_topic,Tell me about World War 2
+What's the deal with the region column?,dataset,What does the region column mean?
+Can you explain what the region column is for?,dataset,What does the region column mean?
+What does the region field mean?,dataset,What does the region column mean?
+What is the purpose of the region column?,dataset,What does the region column mean?
+Could you tell me what the region column signifies?,dataset,What does the region column mean?
+What's the price with the most tickets?,sql,Which price has the most tickets?
+Which price has the highest number of tickets?,sql,Which price has the most tickets?
+Can you tell me which price has the most tickets sold?,sql,Which price has the most tickets?
+I need to know which price has the biggest number of tickets.,sql,Which price has the most tickets?
+Which price do I need to look at to see the most tickets?,sql,Which price has the most tickets?
+"Hm, OK",small_talk,hmm okay
+"Okay, sure",small_talk,hmm okay
+"Ok, got it",small_talk,hmm okay
+Sure thing,small_talk,hmm okay
+"Hey, can we compare customers by department?",sql,Compare customers across each department
+Could we see a breakdown of customers per department?,sql,Compare customers across each department
+Any chance you could group customers by department for me?,sql,Compare customers across each department
+Do you think we could look at customer distribution by department?,sql,Compare customers across each department
+Could you pull up a comparison of customers by department?,sql,Compare customers across each department
+Could you tell me the columns in the products table?,dataset,What columns are in the products table?
+What are the column names for the products table?,dataset,What columns are in the products table?
+Do you know what columns are in the products table?,dataset,What columns are in the products table?
+What fields are in the products table?,dataset,What columns are in the products table?
+"Hey, can you show me the invoices from the biggest categories?",sql,Find invoices with the highest category
+"I need the highest category invoices, please!",sql,Find invoices with the highest category
+Any idea how to find the invoices with the most categories?,sql,Find invoices with the highest category
+Do you know how to get the invoices from the top categories?,sql,Find invoices with the highest category
+Can you help me locate the invoices with the highest categories?,sql,Find invoices with the highest category
+Compare customers by region please,sql,Compare customers across each region
+Can you compare the customers across different regions?,sql,Compare customers across each region
+Show me the comparison of customers in each region,sql,Compare customers across each region
+I need to compare customer data by region,sql,Compare customers across each region
+Could you compare customers between the regions for me?,sql,Compare customers across each region
+What's the city column for?,dataset,What does the city column mean?
+Can you explain what the city column means?,dataset,What does the city column mean?
+What does the 'city' column represent?,dataset,What does the city column mean?
+What info does the city column give us?,dataset,What does the city column mean?
+Could you tell me what the city column stands for?,dataset,What does the city column mean?
+Who came up with the telephone?,off_topic,Who invented the telephone?
+Who invented that thing that makes phone calls?,off_topic,Who invented the telephone?
+Who created the telephone?,off_topic,Who invented the telephone?
+Who thought of the telephone?,off_topic,Who invented the telephone?
+Who made up the telephone?,off_topic,Who invented the telephone?
+What files did I just upload?,dataset,What files did I upload?
+Can you check which files I've uploaded?,dataset,What files did I upload?
+Do you have a record of the files I uploaded?,dataset,What files did I upload?
+Could you tell me what files I uploaded to the server?,dataset,What files did I upload?
+What files did I put on there?,dataset,What files did I upload?
+Can you show me revenue breakdown by category and month?,sql,Break down revenue by category and month
+Please break down the revenue by category and month for me.,sql,Break down revenue by category and month
+I need a breakdown of revenue by category and month.,sql,Break down revenue by category and month
+Could you provide a revenue breakdown by category and month?,sql,Break down revenue by category and month
+"Show me the revenue breakdown by category and month, please.",sql,Break down revenue by category and month
+Average payments by category?,sql,average payments per category
+What's the average payment per category?,sql,average payments per category
+Can you show me the average payments per category?,sql,average payments per category
+"Average payments per category, please?",sql,average payments per category
+Could you calculate the average payment per category for me?,sql,average payments per category
+What columns does the expenses table have?,dataset,What columns are in the expenses table?
+Can you tell me what columns are in the expenses table?,dataset,What columns are in the expenses table?
+What are the column names in the expenses table?,dataset,What columns are in the expenses table?
+Do you know the columns in the expenses table?,dataset,What columns are in the expenses table?
+"What columns are in the expenses table, please?",dataset,What columns are in the expenses table?
+What can u do?,small_talk,what can you do?
+Can you do anything?,small_talk,what can you do?
+What services do you offer?,small_talk,what can you do?
+What cool stuff can you do?,small_talk,what can you do?
+What tasks can you handle?,small_talk,what can you do?
+Who has the highest rank in the company?,sql,Find employees with the highest status
+What employees hold the top positions?,sql,Find employees with the highest status
+Who are the most senior employees in the organization?,sql,Find employees with the highest status
+Retrieve the staff with the highest status levels.,sql,Find employees with the highest status
+Identify employees with the maximum rank in the company.,sql,Find employees with the highest status
+Good evening! What's up?,small_talk,good evening
+"Hey, it's good evening. How's it going?",small_talk,good evening
+Good evening! Just checking in.,small_talk,good evening
+Good evening. What have you been up to?,small_talk,good evening
+Good evening! Hope you're doing well.,small_talk,good evening
+Max products in 2025?,sql,What was the maximum products in 2025?
+What's the most products for 2025?,sql,What was the maximum products in 2025?
+Max number of products in 2025?,sql,What was the maximum products in 2025?
+Highest number of products in 2025?,sql,What was the maximum products in 2025?
+What was the peak number of products in 2025?,sql,What was the maximum products in 2025?
+"Hey, any good movies you've seen lately that you'd recommend?",off_topic,Recommend a movie
+I'm looking for a good movie to watch. Do you have any recommendations?,off_topic,Recommend a movie
+Any movie suggestions you could share?,off_topic,Recommend a movie
+Could you recommend a movie that you think is worth checking out?,off_topic,Recommend a movie
+"Hey, do you know of any good movies that I should watch?",off_topic,Recommend a movie
+Show me all tickets priced at 2025,sql,List all tickets where price is 2025
+Find all tickets with a price of 2025,sql,List all tickets where price is 2025
+List tickets where the cost is 2025,sql,List all tickets where price is 2025
+Get me tickets that have a price of 2025,sql,List all tickets where price is 2025
+Select all tickets with a price of 2025,sql,List all tickets where price is 2025
+"Could you describe the 'employees' table for me, please?",dataset,Describe the employees table
+What's the structure of the 'employees' table?,dataset,Describe the employees table
+Can you explain the layout of the 'employees' table?,dataset,Describe the employees table
+What information is stored in the 'employees' table?,dataset,Describe the employees table
+Could you give me a rundown of the 'employees' table?,dataset,Describe the employees table
+Who purchased the largest amount of inventory?,sql,Which customers bought the most inventory?
+Which customers have made the biggest purchases?,sql,Which customers bought the most inventory?
+Can you tell me which customers have bought the most inventory?,sql,Which customers bought the most inventory?
+Which customers have the highest inventory purchases?,sql,Which customers bought the most inventory?
+Which table has the date?,dataset,Which table has date?
+Can you tell me which table contains the date?,dataset,Which table has date?
+I need to know which table has the date column.,dataset,Which table has date?
+Which one of these tables has the date in it?,dataset,Which table has date?
+Could you help me find out which table has the date?,dataset,Which table has date?
+What's the date column for?,dataset,What does the date column mean?
+Could you explain what the date column means?,dataset,What does the date column mean?
+What do we use the date column for?,dataset,What does the date column mean?
+What's the purpose of the date column?,dataset,What does the date column mean?
+Can you tell me what the date column signifies?,dataset,What does the date column mean?
+How do tickets and customers link up?,dataset,How are tickets and customers connected?
+Is there a connection between tickets and customers?,dataset,How are tickets and customers connected?
+What's the relationship between tickets and customers?,dataset,How are tickets and customers connected?
+How does the ticketing system connect with customers?,dataset,How are tickets and customers connected?
+Do tickets and customers have any relation?,dataset,How are tickets and customers connected?
+"Hey, can you show me the inventory breakdown by city?",sql,Show me inventory by city
+"Can you give me a list of inventory levels, grouped by city?",sql,Show me inventory by city
+I'd like to see how much inventory we have in each city. Could you do that for me?,sql,Show me inventory by city
+Please provide the inventory data sorted by city location.,sql,Show me inventory by city
+Could you show me the inventory count for each city?,sql,Show me inventory by city
+How many invoices are there per region?,sql,number of invoices per region
+Could you tell me the number of invoices per region?,sql,number of invoices per region
+I need the count of invoices per region.,sql,number of invoices per region
+Could you give me the number of invoices split by region?,sql,number of invoices per region
+What's the number of invoices for each region?,sql,number of invoices per region
+What's the average income?,sql,What is the average revenue?
+Can you tell me the average revenue?,sql,What is the average revenue?
+What is the mean revenue?,sql,What is the average revenue?
+Could you give me the average earning?,sql,What is the average revenue?
+"Average revenue, please?",sql,What is the average revenue?
+"Hey, how do payments and customers tie together?",dataset,How are payments and customers connected?
+What's the connection between payments and customers?,dataset,How are payments and customers connected?
+How do payments and customers link up?,dataset,How are payments and customers connected?
+Can you explain how payments and customers are related?,dataset,How are payments and customers connected?
+How does the payments system work with customers?,dataset,How are payments and customers connected?
+Can someone tell me which table has city info?,dataset,Which table has city?
+I'm looking for a table with city data. Does anyone know which one it is?,dataset,Which table has city?
+Which table contains city information?,dataset,Which table has city?
+Can you help me find the table with city details?,dataset,Which table has city?
+I need to know which table has city data. Do you know which one it is?,dataset,Which table has city?
+Get me the inventory with the biggest city count!,sql,Find inventory with the highest city
+Could you show me the inventory that has the most cities listed?,sql,Find inventory with the highest city
+I need the inventory that includes the highest number of cities.,sql,Find inventory with the highest city
+Which inventory has the most cities in it?,sql,Find inventory with the highest city
+Retrieve the inventory with the greatest number of city entries.,sql,Find inventory with the highest city
+Who won that cricket game?,off_topic,Who won the cricket match?
+Did you know who won the match?,off_topic,Who won the cricket match?
+Who was the winner of the cricket match?,off_topic,Who won the cricket match?
+Can you tell me who won the game?,off_topic,Who won the cricket match?
+Who won the cricket contest?,off_topic,Who won the cricket match?
+Can you show me orders with the highest status?,sql,Find orders with the highest status
+What are the orders with the most advanced status?,sql,Find orders with the highest status
+Could you retrieve the orders that have the highest status?,sql,Find orders with the highest status
+Could you display orders that are at the highest status?,sql,Find orders with the highest status
+Please list orders with the most current status.,sql,Find orders with the highest status
+Do you have a column for the month?,dataset,Is there a month column anywhere?
+Can I find a column that shows the month?,dataset,Is there a month column anywhere?
+Is there a column named 'Month' in the dataset?,dataset,Is there a month column anywhere?
+Where can I locate the month information?,dataset,Is there a month column anywhere?
+What was the total inventory in 2025?,sql,What was the sum of inventory in 2025?
+What sum of inventory was there in 2025?,sql,What was the sum of inventory in 2025?
+Could you tell me the inventory total for 2025?,sql,What was the sum of inventory in 2025?
+What was the inventory value in 2025?,sql,What was the sum of inventory in 2025?
+Could you give me the sum of inventory for the year 2025?,sql,What was the sum of inventory in 2025?
+Can you list the inventory grouped by city?,sql,Give me inventory grouped by city
+Give me a breakdown of inventory by city,sql,Give me inventory grouped by city
+"Inventory count by city, please",sql,Give me inventory grouped by city
+Sort the inventory by city,sql,Give me inventory grouped by city
+"Could you display the expenses broken down by month for me, please?",sql,Show me expenses by month
+I'd like to see the expenses categorized by month. Can you help with that?,sql,Show me expenses by month
+Could you format the expense data to show monthly totals?,sql,Show me expenses by month
+Please generate a report that shows expenses by month.,sql,Show me expenses by month
+I need a breakdown of our expenses by month. Could you do that for me?,sql,Show me expenses by month
+Hi TableTalk,small_talk,hello TableTalk
+Hello there TableTalk,small_talk,hello TableTalk
+Greetings TableTalk,small_talk,hello TableTalk
+Hi! TableTalk,small_talk,hello TableTalk
+Hey TableTalk,small_talk,hello TableTalk
+rad,small_talk,cool
+sweet,small_talk,cool
+neat,small_talk,cool
+Thanks a lot!,small_talk,thanks
+Thanks! 😊,small_talk,thanks
+Tanks a bunch!,small_talk,thanks
+Thanks so much!,small_talk,thanks
+"Thanks, really appreciate it!",small_talk,thanks
+Which columns are in the tickets table?,dataset,What columns are in the tickets table?
+Can you tell me what columns are in the tickets table?,dataset,What columns are in the tickets table?
+What are the columns in the tickets table?,dataset,What columns are in the tickets table?
+Could you list the columns in the tickets table for me?,dataset,What columns are in the tickets table?
+"Tickets table columns, what are they?",dataset,What columns are in the tickets table?
+Can you tell me the columns in the revenue table?,dataset,What columns are in the revenue table?
+What are the columns for the revenue table?,dataset,What columns are in the revenue table?
+Could you list the columns in the revenue table for me?,dataset,What columns are in the revenue table?
+What's the breakdown of columns in the revenue table?,dataset,What columns are in the revenue table?
+"Hey boss, need to drop you a line. Got some stuff to discuss.",off_topic,Write an email to my boss
+"Hey, just wanted to shoot you an email. Hope you're well.",off_topic,Write an email to my boss
+Can you spare a moment? I've got a message for you.,off_topic,Write an email to my boss
+"Hey there, hope this finds you well. I've got something to share.",off_topic,Write an email to my boss
+"Hi boss, could you spare a minute for an email?",off_topic,Write an email to my boss
+Do you have a price column in there somewhere?,dataset,Is there a price column anywhere?
+Is there a price field anywhere in the dataset?,dataset,Is there a price column anywhere?
+Can you find the price column for me?,dataset,Is there a price column anywhere?
+Where's the price column hiding?,dataset,Is there a price column anywhere?
+Does the dataset have a price column?,dataset,Is there a price column anywhere?
+How many workers were there last month?,sql,How many employees were there last month?
+Can you tell me how many employees we had last month?,sql,How many employees were there last month?
+"Last month, how many people were employed?",sql,How many employees were there last month?
+Could you give me the number of employees from last month?,sql,How many employees were there last month?
+What was the employee count for last month?,sql,How many employees were there last month?
+What's the format of the month column?,dataset,What type is the month column?
+Can you tell me the data type of the month column?,dataset,What type is the month column?
+What datatype is the month column?,dataset,What type is the month column?
+What is the type of data in the month column?,dataset,What type is the month column?
+Could you specify the data type for the month column?,dataset,What type is the month column?
+"Hey, can you give me some workout advice?",off_topic,Give me workout tips
+I'm looking for some fitness tips. What can you do?,off_topic,Give me workout tips
+Do you have any workout recommendations?,off_topic,Give me workout tips
+Quick question: what are some good exercises?,off_topic,Give me workout tips
+Can you suggest some workouts for me?,off_topic,Give me workout tips
+What's ur name?,small_talk,what's your name?
+Could u tell me ur name?,small_talk,what's your name?
+What's the deal with u?,small_talk,what's your name?
+"Name's up in the air, what's yours?",small_talk,what's your name?
+"Hey, what's your call?",small_talk,what's your name?
+What's the weather like today?,off_topic,What's the weather today?
+How's the weather today?,off_topic,What's the weather today?
+What's the weather situation today?,off_topic,What's the weather today?
+What's up with the weather today?,off_topic,What's the weather today?
+"Current weather, right now?",off_topic,What's the weather today?
+How many customers do we have by status?,sql,total customers per status
+Can you tell me the total number of customers broken down by status?,sql,total customers per status
+What's the count of customers for each status?,sql,total customers per status
+Could you show me the total number of customers grouped by their status?,sql,total customers per status
+Give me a breakdown of customers by their status.,sql,total customers per status
+What's up with the latest stuff?,off_topic,What's the latest news?
+What's the scoop on the newest news?,off_topic,What's the latest news?
+Any updates on what's been happening?,off_topic,What's the latest news?
+What's the current buzz?,off_topic,What's the latest news?
+"What's new? Latest news, anyone?",off_topic,What's the latest news?
+"Could you list out all the tables and columns for me, please?",dataset,List the tables and columns
+I need a breakdown of all the tables and columns in the dataset.,dataset,List the tables and columns
+Can you provide me with a list of all tables and their respective columns?,dataset,List the tables and columns
+What are the names of all the tables and their columns?,dataset,List the tables and columns
+Could you give me a rundown of all the tables and their columns in the dataset?,dataset,List the tables and columns
+Who's Shah Rukh Khan?,off_topic,Who is Shah Rukh Khan?
+I wonder who Shah Rukh Khan is.,off_topic,Who is Shah Rukh Khan?
+Anybody know who Shah Rukh Khan is?,off_topic,Who is Shah Rukh Khan?
+"Hey, have you heard of Shah Rukh Khan?",off_topic,Who is Shah Rukh Khan?
+Who made that movie with Shah Rukh Khan?,off_topic,Who is Shah Rukh Khan?
+Can you show me payments sorted by department?,sql,Give me payments grouped by department
+"Give me the payments, but organized by department.",sql,Give me payments grouped by department
+I need the payments grouped by their respective departments.,sql,Give me payments grouped by department
+"Could you list the payments, but with departments as the grouping?",sql,Give me payments grouped by department
+"Please provide the payments, categorized by department.",sql,Give me payments grouped by department
+Which area has the greatest number of students?,sql,Which region has the most students?
+Can you tell me which region has the highest enrollment?,sql,Which region has the most students?
+Which region has the largest student population?,sql,Which region has the most students?
+What's the region with the most students?,sql,Which region has the most students?
+What was the sales figure for 2025?,sql,What was the number of sales in 2025?
+Can you tell me how many sales were made in 2025?,sql,What was the number of sales in 2025?
+How much did we sell in 2025?,sql,What was the number of sales in 2025?
+What's the total sales for 2025?,sql,What was the number of sales in 2025?
+Could you give me the sales numbers for the year 2025?,sql,What was the number of sales in 2025?
+What's the current price of Apple?,off_topic,What's the stock price of Apple?
+How much is Apple's stock worth right now?,off_topic,What's the stock price of Apple?
+What's the latest stock price for Apple?,off_topic,What's the stock price of Apple?
+Can you tell me the current stock price of Apple?,off_topic,What's the stock price of Apple?
+What is Apple's stock price at the moment?,off_topic,What's the stock price of Apple?
+Show all orders for the month in Mumbai,sql,List all orders where month is Mumbai
+List all orders from Mumbai this month,sql,List all orders where month is Mumbai
+Get all orders from Mumbai's month,sql,List all orders where month is Mumbai
+Find all orders for the month in Mumbai city,sql,List all orders where month is Mumbai
+Retrieve all orders from Mumbai's month,sql,List all orders where month is Mumbai
+Awesome!,small_talk,that's perfect
+Perfect match!,small_talk,that's perfect
+That's spot on!,small_talk,that's perfect
+Looks great!,small_talk,that's perfect
+Just right!,small_talk,that's perfect
+Can you show me the trend of customers over time?,sql,Show customers trend over time
+What's the trend of customers over the years?,sql,Show customers trend over time
+Could you provide a timeline of customer growth?,sql,Show customers trend over time
+I need a graph showing customer trends.,sql,Show customers trend over time
+Please display the customer trend over the period.,sql,Show customers trend over time
+What's the lowest number of orders we've ever had?,sql,What is the minimum orders?
+How many minimum orders does our store handle?,sql,What is the minimum orders?
+What's the smallest number of orders in a single day?,sql,What is the minimum orders?
+Can you tell me about our lowest order count?,sql,What is the minimum orders?
+What's the minimum number of orders we typically process?,sql,What is the minimum orders?
+Which month has the most items?,sql,Which month has the most products?
+Can you tell me which month has the highest number of products?,sql,Which month has the most products?
+What month has the most stuff?,sql,Which month has the most products?
+Which month has the biggest product count?,sql,Which month has the most products?
+Could you check which month has the most items on sale?,sql,Which month has the most products?
+What's in this dataset?,dataset,What is in this dataset?
+What data is contained in this dataset?,dataset,What is in this dataset?
+Could you tell me what's included in this dataset?,dataset,What is in this dataset?
+What information is stored in this dataset?,dataset,What is in this dataset?
+What kind of data do I have access to in this dataset?,dataset,What is in this dataset?
+I want to see the total number of orders for each region.,sql,sum of orders per region
+Can you provide a breakdown of total orders by region?,sql,sum of orders per region
+Please give me the sum of orders for every region.,sql,sum of orders per region
+I need the total orders per region listed out.,sql,sum of orders per region
+Sum up the orders for each region for me.,sql,sum of orders per region
+Select all employees where the month is 2025.,sql,List all employees where month is 2025
+List all employees for the year 2025.,sql,List all employees where month is 2025
+Get all employees with a start month of 2025.,sql,List all employees where month is 2025
+Retrieve all employees from the month of 2025.,sql,List all employees where month is 2025
+Fetch all employees where the month starts in 2025.,sql,List all employees where month is 2025
+Can you get me the sales with the most recent date?,sql,Find sales with the highest date
+I need the sales records that have the latest date stamp.,sql,Find sales with the highest date
+Could you find the sales with the highest date for me?,sql,Find sales with the highest date
+Please provide sales data sorted by the newest date.,sql,Find sales with the highest date
+Give me the sales with the latest timestamp.,sql,Find sales with the highest date
+"Hey, can someone tell me how to cook pasta?",off_topic,How do I cook pasta?
+Anyone know how to make pasta?,off_topic,How do I cook pasta?
+How do I prepare pasta for dinner?,off_topic,How do I cook pasta?
+Can someone explain the steps to cook pasta?,off_topic,How do I cook pasta?
+I need help with cooking pasta. Anyone know the recipe?,off_topic,How do I cook pasta?
+Show me the order trend over time.,sql,Show orders trend over time
+Please display the trend of orders over the years.,sql,Show orders trend over time
+Can you graph the order trend over time?,sql,Show orders trend over time
+I need to see the trend of orders through time.,sql,Show orders trend over time
+Show the order trend over the time period.,sql,Show orders trend over time
+"I need help with my math homework, can you assist me?",off_topic,Help me with my maths homework
+"Hey, I'm struggling with some math problems. Could you give me a hand?",off_topic,Help me with my maths homework
+Math homework is driving me crazy! Do you think you could help me out?,off_topic,Help me with my maths homework
+I'm having trouble with my maths. Any ideas on how to get started?,off_topic,Help me with my maths homework
+Maths is kicking my butt! Can you help me out with the homework?,off_topic,Help me with my maths homework
+"Hey, could you write me some Python code for a game? I'm looking to make something fun!",off_topic,Write Python code for a game
+"Please, I need a Python script for a game. Can you help me out?",off_topic,Write Python code for a game
+"Hey, I'm trying to create a game and I need some Python code. Can you assist me?",off_topic,Write Python code for a game
+I'm looking to write a game in Python. Could you give me some sample code?,off_topic,Write Python code for a game
+Hey there! I'm interested in making a game and need some Python code. Could you help?,off_topic,Write Python code for a game
+okay,small_talk,ok
+okay then,small_talk,ok
+"Give me orders sorted by status, please.",sql,Give me orders grouped by status
+Could you show me orders organized by their status?,sql,Give me orders grouped by status
+Display orders in groups based on their status.,sql,Give me orders grouped by status
+"Group orders by their status for me, please.",sql,Give me orders grouped by status
+I need orders sorted by status.,sql,Give me orders grouped by status
+Who are the employees with the most in their departments?,sql,Find employees with the highest department
+Can you give me a list of employees who are in the top department roles?,sql,Find employees with the highest department
+I need to know who has the biggest presence in each department.,sql,Find employees with the highest department
+Could you find out which employees are in the leadership positions of their departments?,sql,Find employees with the highest department
+What's the breakdown of the highest-performing employees per department?,sql,Find employees with the highest department
+"Can you describe the structure of the orders table, please?",dataset,Describe the orders table
+What's the layout of the orders table?,dataset,Describe the orders table
+Could you give me an overview of the orders table?,dataset,Describe the orders table
+Please explain the schema of the orders table to me.,dataset,Describe the orders table
+What information is stored in the orders table?,dataset,Describe the orders table
+Can you show me the payments sorted by date?,sql,Show me payments by date
+Please display the payments in order of their dates.,sql,Show me payments by date
+Show me the payments listed by the date they were made.,sql,Show me payments by date
+Could you arrange the payments by the date they occurred?,sql,Show me payments by date
+Give me the payments sorted by their transaction date.,sql,Show me payments by date
+"Wow, that's awesome!",small_talk,brilliant
+That's fantastic!,small_talk,brilliant
+Brilliant! I totally agree.,small_talk,brilliant
+Impressive! You must be really good at what you do.,small_talk,brilliant
+That's amazing! I've never seen anything like it.,small_talk,brilliant
+Can you show me the inventory trend over time?,sql,Show inventory trend over time
+Please display the inventory's progress through time.,sql,Show inventory trend over time
+I'd like a chart showing how inventory has changed over time.,sql,Show inventory trend over time
+Could you generate a graph of our inventory levels over the past few months?,sql,Show inventory trend over time
+Show me a timeline of inventory changes.,sql,Show inventory trend over time
+Compare students within each department,sql,Compare students across each department
+Show student comparisons by department,sql,Compare students across each department
+Break down student data by department,sql,Compare students across each department
+Students comparison across departments,sql,Compare students across each department
+Department-wise student comparisons,sql,Compare students across each department
+Can you show me the expenses broken down by region and month?,sql,Break down expenses by region and month
+I need a breakdown of expenses by region and month. Can you do that?,sql,Break down expenses by region and month
+Could you break down the expenses by region and month for me?,sql,Break down expenses by region and month
+Please provide an expense report by region and month.,sql,Break down expenses by region and month
+Could you give me a breakdown of expenses by region and month?,sql,Break down expenses by region and month
+Hi there~,small_talk,hey there
+Wassup?,small_talk,hey there
+Can you show me sales data sorted by category please?,sql,Give me sales grouped by category
+"Group sales by category for me, thanks!",sql,Give me sales grouped by category
+I need sales figures organized by category.,sql,Give me sales grouped by category
+Could you aggregate sales data by category for me?,sql,Give me sales grouped by category
+Please list sales grouped by their categories.,sql,Give me sales grouped by category
+Which table got region info?,dataset,Which table has region?
+Can you tell me which table has region data?,dataset,Which table has region?
+Which one has region details?,dataset,Which table has region?
+What table contains region information?,dataset,Which table has region?
+Which table includes region data?,dataset,Which table has region?
+What's the total sales?,sql,What is the total sales?
+Can you tell me the sum of sales?,sql,What is the total sales?
+What are the total sales figures?,sql,What is the total sales?
+Could you give me the grand total of sales?,sql,What is the total sales?
+What's the total revenue?,sql,What is the total sales?
+"Cool, right?",small_talk,awesome
+Totally rad!,small_talk,awesome
+That's awesome.,small_talk,awesome
+What a great day!,small_talk,awesome
+Show me tickets with the most important category.,sql,Find tickets with the highest category
+Please list the tickets that are in the highest category.,sql,Find tickets with the highest category
+Can you find the tickets that have the top category?,sql,Find tickets with the highest category
+I need tickets that are in the most urgent category.,sql,Find tickets with the highest category
+Get tickets that are in the highest priority category.,sql,Find tickets with the highest category
+How do employees and customers interact?,dataset,How are employees and customers connected?
+What's the connection between employees and customers?,dataset,How are employees and customers connected?
+How are employees and customers related?,dataset,How are employees and customers connected?
+How does the relationship between employees and customers work?,dataset,How are employees and customers connected?
+What's the link between employees and customers?,dataset,How are employees and customers connected?
+"Whoa, who are you?",small_talk,who are you?
+"Hey, I don't know you. Who are you?",small_talk,who are you?
+I've never seen you before. Who are you?,small_talk,who are you?
+Who am I talking to?,small_talk,who are you?
+"Hello, who are you?",small_talk,who are you?
+Show me all invoices for customers in Mumbai.,sql,List all invoices where city is Mumbai
+Get a list of invoices where the city is Mumbai.,sql,List all invoices where city is Mumbai
+Can you list all invoices for people in Mumbai?,sql,List all invoices where city is Mumbai
+List all the invoices for customers from Mumbai.,sql,List all invoices where city is Mumbai
+Please show me all invoices for Mumbai-based customers.,sql,List all invoices where city is Mumbai
+Get all payments for Mumbai,sql,List all payments where date is Mumbai
+Find payments with a date in Mumbai,sql,List all payments where date is Mumbai
+Show me all payments that have a date in Mumbai,sql,List all payments where date is Mumbai
+I need a list of payments where the date is in Mumbai,sql,List all payments where date is Mumbai
+List all payments with the date being in Mumbai,sql,List all payments where date is Mumbai
+Alright then,small_talk,alright
+Glad to hear it,small_talk,alright
+Who's the president of the US?,off_topic,Who is the president of the USA?
+Who runs the USA?,off_topic,Who is the president of the USA?
+Who's the boss of the United States?,off_topic,Who is the president of the USA?
+"Whaddup, what's the prez's name?",off_topic,Who is the president of the USA?
+Who's in charge of America?,off_topic,Who is the president of the USA?
+How many customers each day?,sql,total customers per date
+Count of customers by date,sql,total customers per date
+Daily customer totals,sql,total customers per date
+Customer count per day,sql,total customers per date
+Total customers for each date,sql,total customers per date
+What's the price column's data type?,dataset,What type is the price column?
+Can you tell me the type of the price column?,dataset,What type is the price column?
+What datatype is the price column?,dataset,What type is the price column?
+Could you let me know the type of the price column?,dataset,What type is the price column?
+What data type is the price column?,dataset,What type is the price column?
+What's the data type of the city column?,dataset,What type is the city column?
+Could you tell me the type of the city column in the dataset?,dataset,What type is the city column?
+What kind of data is in the city column?,dataset,What type is the city column?
+Do you know the data type for the city column?,dataset,What type is the city column?
+What type of information is stored in the city column?,dataset,What type is the city column?
+SQL: Total inventory by date,sql,sum of inventory per date
+SQL: Sum of inventory by day,sql,sum of inventory per date
+SQL: Total inventory on each date,sql,sum of inventory per date
+SQL: Get sum of inventory per day,sql,sum of inventory per date
+SQL: Calculate total inventory by date,sql,sum of inventory per date
+Can you show me the trend of students over time?,sql,Show students trend over time
+I need a graph showing student progress over time.,sql,Show students trend over time
+Could you plot the trend of students over time for me?,sql,Show students trend over time
+Give me a line chart of student trends over time.,sql,Show students trend over time
+"Show me the student trend data over time, please.",sql,Show students trend over time
+"Top 5 orders by region, please?",sql,Top 5 orders by region
+What are the top 5 orders based on region?,sql,Top 5 orders by region
+Can you show me the top 5 orders by region?,sql,Top 5 orders by region
+"Top 5 orders by region, can you list them?",sql,Top 5 orders by region
+Could you provide the top 5 orders sorted by region?,sql,Top 5 orders by region
+Can you tell me about the inventory table? What does it look like?,dataset,Describe the inventory table
+What's the structure of the inventory table? Could you explain it to me?,dataset,Describe the inventory table
+How is the inventory table organized? Please describe it for me.,dataset,Describe the inventory table
+What are the columns in the inventory table? Could you give me an overview?,dataset,Describe the inventory table
+Can you explain what the inventory table contains and how it's set up?,dataset,Describe the inventory table
+Which month got the most customers?,sql,Which month has the most customers?
+What's the busiest month for customers?,sql,Which month has the most customers?
+Which month had the highest number of customers?,sql,Which month has the most customers?
+Can you tell me which month had the most customers?,sql,Which month has the most customers?
+Which month saw the most customers?,sql,Which month has the most customers?
+Do we have a region column in the dataset?,dataset,Is there a region column anywhere?
+Is there a region field anywhere in the data?,dataset,Is there a region column anywhere?
+Can anyone confirm if there's a region column in our dataset?,dataset,Is there a region column anywhere?
+Does the dataset include a region column?,dataset,Is there a region column anywhere?
+Does anyone know if the dataset has a region field?,dataset,Is there a region column anywhere?
+Can you show me the ticket trend over time?,sql,Show tickets trend over time
+I want to see the ticket trends over time. Can you do that?,sql,Show tickets trend over time
+Could you please show the trend of tickets over time?,sql,Show tickets trend over time
+"Show the trend of tickets over time, please.",sql,Show tickets trend over time
+I need the ticket trend over time. Can you generate that for me?,sql,Show tickets trend over time
+"I need to fly to Delhi, please!",off_topic,Book a flight to Delhi
+Can you book me a ticket to Delhi?,off_topic,Book a flight to Delhi
+Do you know of any flights to Delhi?,off_topic,Book a flight to Delhi
+"Hey, is it possible to get a flight to Delhi?",off_topic,Book a flight to Delhi
+Could you make a booking for me to Delhi?,off_topic,Book a flight to Delhi
+"Hey, can you display the payments broken down by department?",sql,Show me payments by department
+"I need a list of payments, sorted by the department they're associated with.",sql,Show me payments by department
+Could you show me the payments categorized by department?,sql,Show me payments by department
+Please give me the payments organized by the department they belong to.,sql,Show me payments by department
+Can you break down the payments by department for me?,sql,Show me payments by department
+What columns do we have in the customers table?,dataset,What columns are in the customers table?
+Can you tell me the columns in the customers table?,dataset,What columns are in the customers table?
+What's inside the customers table?,dataset,What columns are in the customers table?
+What columns are there in the customers table?,dataset,What columns are in the customers table?
+Could you list the columns in the customers table for me?,dataset,What columns are in the customers table?
+"Hey, what's the capital of France?",off_topic,What is the capital of France?
+What city is the capital of France?,off_topic,What is the capital of France?
+Do you know what city is the capital of France?,off_topic,What is the capital of France?
+What's up with the capital of France?,off_topic,What is the capital of France?
+Can anyone tell me the capital of France?,off_topic,What is the capital of France?
+How many revenue per city?,sql,count of revenue per city
+Can you tell me the revenue count by city?,sql,count of revenue per city
+What's the revenue breakdown by city?,sql,count of revenue per city
+Could you give me the revenue count for each city?,sql,count of revenue per city
+What are the revenue figures per city?,sql,count of revenue per city
+Could you explain the sales table to me?,dataset,Describe the sales table
+What's the layout of the sales table?,dataset,Describe the sales table
+Could you give me a breakdown of the sales table?,dataset,Describe the sales table
+Can you tell me about the structure of the sales table?,dataset,Describe the sales table
+What information does the sales table contain?,dataset,Describe the sales table
+"Hey, could you write me a dragon story?",off_topic,Write a story about dragons
+I'm in the mood for a dragon tale. Do you have a good one?,off_topic,Write a story about dragons
+"Hey, can you make up a dragon story for me?",off_topic,Write a story about dragons
+Dragon stories are my jam. Got one for me?,off_topic,Write a story about dragons
+Could you come up with a dragon story that I can tell to my friends?,off_topic,Write a story about dragons
+How many products did we sell last month?,sql,How many products were there last month?
+"Last month, how many products were there?",sql,How many products were there last month?
+Can you tell me the number of products sold last month?,sql,How many products were there last month?
+What was the count of products last month?,sql,How many products were there last month?
+Could you give me the product count from last month?,sql,How many products were there last month?
+What's the biggest payment in 2025?,sql,What was the maximum payments in 2025?
+What was the highest payment in 2025?,sql,What was the maximum payments in 2025?
+What is the maximum payment from 2025?,sql,What was the maximum payments in 2025?
+What was the max payment for 2025?,sql,What was the maximum payments in 2025?
+What's the largest payment in 2025?,sql,What was the maximum payments in 2025?
+"Awesome, thanks a lot!",small_talk,"great, thanks"
+"Great, thanks for the help!",small_talk,"great, thanks"
+Thanks a bunch! That's really helpful.,small_talk,"great, thanks"
+"Thanks, I appreciate it!",small_talk,"great, thanks"
+"Awesome, thanks for the support!",small_talk,"great, thanks"
+Good mornin'!,small_talk,good morning
+Mornin' to ya!,small_talk,good morning
+"Good day, how u doing?",small_talk,good morning
+Good mornin' there!,small_talk,good morning
+Hello! Have a great day!,small_talk,good morning
+Show employees by date and month,sql,Break down employees by date and month
+Group employees by month and day,sql,Break down employees by date and month
+List employees by date and time,sql,Break down employees by date and month
+Sort employees by month and day,sql,Break down employees by date and month
+Break employees down by month and date,sql,Break down employees by date and month
+What's the deal with the status column?,dataset,What does the status column mean?
+Can you explain what the status column is about?,dataset,What does the status column mean?
+What does the status field mean?,dataset,What does the status column mean?
+What's the purpose of the status column?,dataset,What does the status column mean?
+Could you tell me what the status column indicates?,dataset,What does the status column mean?
+HAHA,small_talk,lol
+xD,small_talk,lol
+lmao,small_talk,lol
+What's the data type of the status column?,dataset,What type is the status column?
+Can you tell me the type of the status column in the dataset?,dataset,What type is the status column?
+What type of data is in the status column?,dataset,What type is the status column?
+Could you specify the data type for the status column?,dataset,What type is the status column?
+What is the format of the status column?,dataset,What type is the status column?
+Can you give me a breakdown of my data structure?,dataset,Show me the structure of my data
+Please display the layout of my dataset for me.,dataset,Show me the structure of my data
+Could you show me how my data is organized?,dataset,Show me the structure of my data
+What's the structure of my data? Could you explain it to me?,dataset,Show me the structure of my data
+I need to know the structure of my data set. Could you provide it?,dataset,Show me the structure of my data
+"Hey, can you translate 'hello' to Spanish for me?",off_topic,Translate hello into Spanish
+I need the Spanish translation of 'hello'. Thanks!,off_topic,Translate hello into Spanish
+Could you tell me how to say 'hello' in Spanish?,off_topic,Translate hello into Spanish
+Any idea what 'hello' is in Spanish?,off_topic,Translate hello into Spanish
+Quick question: What's the Spanish word for 'hello'?,off_topic,Translate hello into Spanish
+How can I shed some pounds?,off_topic,How do I lose weight?
+What's the best way to lose weight?,off_topic,How do I lose weight?
+I need to slim down. How do I do that?,off_topic,How do I lose weight?
+How do I get smaller?,off_topic,How do I lose weight?
+I'm looking to lose weight. Any tips?,off_topic,How do I lose weight?
+Roger that,small_talk,got it
+"Got it, no worries",small_talk,got it
+Understood,small_talk,got it
+"Alright, I'm good",small_talk,got it
+I want to compare sales between different categories.,sql,Compare sales across each category
+Can you show me sales figures for each category?,sql,Compare sales across each category
+Please compare the sales data across various categories.,sql,Compare sales across each category
+Could you list the sales for each category?,sql,Compare sales across each category
+I need a comparison of sales across all categories.,sql,Compare sales across each category
+Can someone quickly summarize this article for me?,off_topic,Summarise this news article
+Could you give me a brief overview of this news piece?,off_topic,Summarise this news article
+Please sum up what's happening in this article.,off_topic,Summarise this news article
+I need a quick summary of the main points in this news story.,off_topic,Summarise this news article
+Could you make this article easier to understand?,off_topic,Summarise this news article
+Can you display the revenue trend over time?,sql,Show revenue trend over time
+Could you show me the revenue chart?,sql,Show revenue trend over time
+What's the revenue trend over time?,sql,Show revenue trend over time
+Do you have a graph of the revenue over time?,sql,Show revenue trend over time
+Please show the revenue progression over time.,sql,Show revenue trend over time
+Which status has the highest number of payments?,sql,Which status has the most payments?
+What status gets the most payments?,sql,Which status has the most payments?
+Which status receives the most payments?,sql,Which status has the most payments?
+Which status has the most transactions?,sql,Which status has the most payments?
+Which status has the greatest number of payments?,sql,Which status has the most payments?
+Can you show me expenses by city?,sql,Give me expenses grouped by city
+Could you group the expenses by city for me?,sql,Give me expenses grouped by city
+I need the expenses sorted by city.,sql,Give me expenses grouped by city
+Give me the expenses categorized by city please.,sql,Give me expenses grouped by city
+Please list the expenses by city.,sql,Give me expenses grouped by city
+See ya later!,small_talk,bye
+Talk to you soon.,small_talk,bye
+Catch you later!,small_talk,bye
+Bye for now.,small_talk,bye
+Peace out!,small_talk,bye
+"Last month, how many tickets were sold?",sql,How many tickets were there last month?
+Could you tell me how many tickets were issued in the previous month?,sql,How many tickets were there last month?
+Any idea how many tickets were generated last month?,sql,How many tickets were there last month?
+I'm curious about the ticket count from last month. Do you have that info?,sql,How many tickets were there last month?
+How many tickets did we have last month? Any stats?,sql,How many tickets were there last month?
+Thanks a lot! 😊,small_talk,thanks a lot
+Big thanks! 🙏,small_talk,thanks a lot
+Much appreciated! 🌟,small_talk,thanks a lot
+Thanks a lot! You're the best! 😎,small_talk,thanks a lot
+Gracias a mucha! 🇬🇷,small_talk,thanks a lot
+What are the tables in my database?,dataset,What tables do I have?
+Can you show me a list of tables?,dataset,What tables do I have?
+What tables are available to me?,dataset,What tables do I have?
+How can I see the tables I have?,dataset,What tables do I have?
+Could you tell me what tables are in my dataset?,dataset,What tables do I have?
+What's the type of the category column?,dataset,What type is the category column?
+Can you tell me what type the category column is?,dataset,What type is the category column?
+What type of data is in the category column?,dataset,What type is the category column?
+Could you let me know the type of the category column?,dataset,What type is the category column?
+What data type is used for the category column?,dataset,What type is the category column?
+Can u explain what quantum physics is?,off_topic,Explain quantum physics
+What's the deal with quantum physics?,off_topic,Explain quantum physics
+Could u give me a quick rundown on quantum physics?,off_topic,Explain quantum physics
+What is the jist of quantum physics?,off_topic,Explain quantum physics
+"Explain quantum physics to me, please!",off_topic,Explain quantum physics
+Hi there,small_talk,hello
+Hello! How are you?,small_talk,hello
+"Greetings, there!",small_talk,hello
+"Hi, just reaching out",small_talk,hello
+I wanna compare products month by month.,sql,Compare products across each month
+Can we see how products change from one month to the next?,sql,Compare products across each month
+"Month-to-month product comparisons, please.",sql,Compare products across each month
+Do you have data on how products perform each month?,sql,Compare products across each month
+I need a breakdown of product sales by month.,sql,Compare products across each month
+Which tables are linked?,dataset,Which tables are related?
+What tables are connected?,dataset,Which tables are related?
+Can you tell me which tables are related?,dataset,Which tables are related?
+Which tables have a relationship?,dataset,Which tables are related?
+Can you provide me with the related tables?,dataset,Which tables are related?
+Which dept has the most products?,sql,Which department has the most products?
+What's the department with the highest number of products?,sql,Which department has the most products?
+Can you tell me which department has the most items?,sql,Which department has the most products?
+Which department carries the most products?,sql,Which department has the most products?
+Which dept has the most stuff?,sql,Which department has the most products?
+Show me all inventory with a category of Pending,sql,List all inventory where category is Pending
+List inventory items that are Pending,sql,List all inventory where category is Pending
+Give me a list of items that have a category of Pending,sql,List all inventory where category is Pending
+Pending category inventory please,sql,List all inventory where category is Pending
+I need a list of all items in the Pending category,sql,List all inventory where category is Pending
+Which dept has the most inventory?,sql,Which department has the most inventory?
+Which department has the highest inventory?,sql,Which department has the most inventory?
+What department has the most stuff in stock?,sql,Which department has the most inventory?
+Which dept has the greatest inventory quantity?,sql,Which department has the most inventory?
+Which one has the most items in inventory?,sql,Which department has the most inventory?
+What can I do with this information?,dataset,What can I ask about this data?
+What questions can I ask about these stats?,dataset,What can I ask about this data?
+What do you think I can learn from this data?,dataset,What can I ask about this data?
+How can I use this dataset?,dataset,What can I ask about this data?
+What insights can I gain from these numbers?,dataset,What can I ask about this data?
+How many students were there in 2025?,sql,What was the count of students in 2025?
+Could you tell me the number of students for 2025?,sql,What was the count of students in 2025?
+What's the student count for the year 2025?,sql,What was the count of students in 2025?
+"In 2025, how many students were there?",sql,What was the count of students in 2025?
+Could you provide the student count for 2025?,sql,What was the count of students in 2025?
+"Could you give me a quick rundown of the data, please?",dataset,Give me an overview of the data
+What's the scoop on the dataset?,dataset,Give me an overview of the data
+Could you tell me what's in the data?,dataset,Give me an overview of the data
+"Give me a brief summary of the data, if you don't mind.",dataset,Give me an overview of the data
+Could you explain the data to me in a simple way?,dataset,Give me an overview of the data
+How many orders did we get last month?,sql,How many orders were there last month?
+What was the order count for last month?,sql,How many orders were there last month?
+"Last month, how many orders were placed?",sql,How many orders were there last month?
+Could you tell me how many orders were made last month?,sql,How many orders were there last month?
+Any idea how many orders came in last month?,sql,How many orders were there last month?
+"Hey, can you split the students up by city and month? Thanks!",sql,Break down students by city and month
+"Could you organize the students by city and month for me, please?",sql,Break down students by city and month
+Do you have a way to group the students by city and month? I need it for a report.,sql,Break down students by city and month
+"Break students into groups by city and month, if possible. Thanks!",sql,Break down students by city and month
+Could you organize the students by city and month? It would be really helpful.,sql,Break down students by city and month
+Hey there!,small_talk,nice
+What's up?,small_talk,nice
+Good morning/afternoon/evening!,small_talk,nice
+Hello!,small_talk,nice
+Woo!,small_talk,wow
+Wowza!,small_talk,wow
+Woo-hoo!,small_talk,wow
+Woo hoo!,small_talk,wow
+Wooo!,small_talk,wow
+The top 5 students based on date,sql,Top 5 students by date
+5 highest scoring students by date,sql,Top 5 students by date
+Show me the top 5 students by date,sql,Top 5 students by date
+"Top students by date, please",sql,Top 5 students by date
+What name should I give my new puppy?,off_topic,What should I name my dog?
+Anyone have any good ideas for a dog name?,off_topic,What should I name my dog?
+I'm looking for a unique name for my upcoming puppy. Any suggestions?,off_topic,What should I name my dog?
+Anybody got some creative ideas for a dog's name?,off_topic,What should I name my dog?
+What's the best name for a dog? Anybody know?,off_topic,What should I name my dog?
+What's the least amount spent?,sql,What is the minimum expenses?
+What are the minimum costs?,sql,What is the minimum expenses?
+What do I need to spend the least?,sql,What is the minimum expenses?
+What's the smallest expense?,sql,What is the minimum expenses?
+What's the minimum expenditure?,sql,What is the minimum expenses?
+How many products do we have in each category?,sql,number of products per category
+Can you tell me the number of products per category?,sql,number of products per category
+What's the count of products for each category?,sql,number of products per category
+How many items do we have categorized?,sql,number of products per category
+Could you provide the number of products by category?,sql,number of products per category
+"Hey, can you show me orders sorted by department?",sql,Give me orders grouped by department
+Could you give me the orders organized by department?,sql,Give me orders grouped by department
+"I need orders grouped by department, please.",sql,Give me orders grouped by department
+Can you list the orders by department?,sql,Give me orders grouped by department
+"Orders by department, please.",sql,Give me orders grouped by department
+Sounds great!,small_talk,sounds good
+Sounds good to me.,small_talk,sounds good
+Works for me.,small_talk,sounds good
+Sounds awesome!,small_talk,sounds good
+Sounds cool!,small_talk,sounds good
+"Play some tunes, please!",off_topic,Play some music
+Could you play some music for me?,off_topic,Play some music
+"Hit the play button on the music, okay?",off_topic,Play some music
+Music time! Play something!,off_topic,Play some music
+"Get the music rolling, would you?",off_topic,Play some music
+Split up the products by month each,sql,Break down products by month and month
+"Organize the products by month, month",sql,Break down products by month and month
+"Divide the products by month, month",sql,Break down products by month and month
+"Break products by month, month",sql,Break down products by month and month
+Group the products by month each,sql,Break down products by month and month
+"Could you share a joke with me, please?",off_topic,Tell me a joke
+"Hey, do you have a joke to tell me?",off_topic,Tell me a joke
+Joke time! Any jokes for me?,off_topic,Tell me a joke
+Can you make me laugh with a joke?,off_topic,Tell me a joke
+"Tell me a joke, I'd love to hear one!",off_topic,Tell me a joke
+Cheers! Cheers! Cheers!,small_talk,cheers
+Cheers~ Cheers~ Cheers~,small_talk,cheers
+"Cheers, Cheers, Cheers, Cheers!",small_talk,cheers
+Cheers! Cheers! Cheers! Cheers! Cheers!,small_talk,cheers
+Cheers~ Cheers~ Cheers~ Cheers~ Cheers~,small_talk,cheers
+Pleasure meeting you!,small_talk,nice to meet you
+"Hi, nice to meet you.",small_talk,nice to meet you
+Good to know you.,small_talk,nice to meet you
+It's great to meet you.,small_talk,nice to meet you
+You're welcome!,small_talk,nice to meet you
+Compare orders by city,sql,Compare orders across each city
+See order differences across cities,sql,Compare orders across each city
+Check order variations by location,sql,Compare orders across each city
+Compare city-wise order data,sql,Compare orders across each city
+View order comparisons by city,sql,Compare orders across each city
+How many tickets are there?,sql,What is the count of tickets?
+Could you tell me the total number of tickets?,sql,What is the count of tickets?
+What's the ticket count?,sql,What is the count of tickets?
+Can you give me the number of tickets?,sql,What is the count of tickets?
+How many tickets do we have?,sql,What is the count of tickets?
+What the heck does life mean?,off_topic,What is the meaning of life?
+"Life's purpose, anyone?",off_topic,What is the meaning of life?
+What's the point of existing?,off_topic,What is the meaning of life?
+Why are we here?,off_topic,What is the meaning of life?
+"I'm just curious, what's the deal with life?",off_topic,What is the meaning of life?
+"How many tables uhh, what's the number?",dataset,How many tables are there?
+I need to know the total number of tables. Can you tell me?,dataset,How many tables are there?
+"How many tables are there, like, seriously?",dataset,How many tables are there?
+"Can you give me the total number of tables, please?",dataset,How many tables are there?
+"How many tables are we talking about, exactly?",dataset,How many tables are there?
+What's Bitcoin?,off_topic,What is bitcoin?
+What's up with Bitcoin?,off_topic,What is bitcoin?
+What's this Bitcoin thing?,off_topic,What is bitcoin?
+"What is Bitcoin, like?",off_topic,What is bitcoin?
+What does Bitcoin do?,off_topic,What is bitcoin?
+Do we have a category column anywhere?,dataset,Is there a category column anywhere?
+Is there a category field listed somewhere?,dataset,Is there a category column anywhere?
+Can you check if there's a category column in the dataset?,dataset,Is there a category column anywhere?
+Does anyone know where the category column is located?,dataset,Is there a category column anywhere?
+Is there a category column in our dataset?,dataset,Is there a category column anywhere?
+Could you please provide a brief overview of the dataset schema?,dataset,Summarise the schema
+What's the structure of the dataset you're referring to?,dataset,Summarise the schema
+Could you summarize the layout of the dataset?,dataset,Summarise the schema
+Could you give me a quick rundown of the dataset's structure?,dataset,Summarise the schema
+What are the key components of the dataset schema?,dataset,Summarise the schema
+Could you tell me the column names for the students table?,dataset,What columns are in the students table?
+What are the column headers in the students table?,dataset,What columns are in the students table?
+Do you know what columns are in the students table?,dataset,What columns are in the students table?
+Can you list the column names for the students table?,dataset,What columns are in the students table?
+Can you write a poem for me?,off_topic,Write me a poem
+I'd love a poem if you have a minute.,off_topic,Write me a poem
+Could you pen a little poem for me?,off_topic,Write me a poem
+"Please write a poem, if you don't mind.",off_topic,Write me a poem
+I was wondering if you could write a poem for me.,off_topic,Write me a poem
+How many tickets are in each department?,sql,number of tickets per department
+Can you show the number of tickets per department?,sql,number of tickets per department
+Please provide the count of tickets per department.,sql,number of tickets per department
+What's the breakdown of tickets by department?,sql,number of tickets per department
+Could you give me the number of tickets for each department?,sql,number of tickets per department
+Who made the most payments?,sql,Which customers bought the most payments?
+Which customers spent the most?,sql,Which customers bought the most payments?
+Who has the highest payment total?,sql,Which customers bought the most payments?
+Top paying customers?,sql,Which customers bought the most payments?
+Most active buyers?,sql,Which customers bought the most payments?
+"I wanna plan a trip to Goa, can u help?",off_topic,Plan my trip to Goa
+"Hey, I'm looking to go to Goa soon. Any suggestions?",off_topic,Plan my trip to Goa
+Goa trip planning? What's the best way to do it?,off_topic,Plan my trip to Goa
+Need some help organizing my trip to Goa. Any tips?,off_topic,Plan my trip to Goa
+Planning a trip to Goa. Got any advice on what to do?,off_topic,Plan my trip to Goa
+Who made the most purchases?,sql,Which customers bought the most invoices?
+Which clients spent the most money?,sql,Which customers bought the most invoices?
+What customers have the highest invoice totals?,sql,Which customers bought the most invoices?
+Who has the biggest spending on invoices?,sql,Which customers bought the most invoices?
+How many items are there?,sql,What is the count of products?
+Can you tell me the number of products?,sql,What is the count of products?
+What's the product count?,sql,What is the count of products?
+How many products do we have?,sql,What is the count of products?
+Could you give me the total number of items?,sql,What is the count of products?
+What was the least number of employees in 2025?,sql,What was the minimum employees in 2025?
+How many employees were there at a minimum in 2025?,sql,What was the minimum employees in 2025?
+Can you tell me the smallest number of employees projected for 2025?,sql,What was the minimum employees in 2025?
+What was the fewest employees expected in 2025?,sql,What was the minimum employees in 2025?
+Could you provide the minimum number of employees forecasted for the year 2025?,sql,What was the minimum employees in 2025?
+Show me all students with a status of Mumbai.,sql,List all students where status is Mumbai
+Get a list of students who have Mumbai as their status.,sql,List all students where status is Mumbai
+Please list all students whose status is Mumbai.,sql,List all students where status is Mumbai
+Could you provide a list of students that have Mumbai as their status?,sql,List all students where status is Mumbai
+I need a list of students where the status is Mumbai.,sql,List all students where status is Mumbai
+Can you help me understand my dataset?,dataset,Explain my dataset
+What's the deal with my dataset?,dataset,Explain my dataset
+Could you give me a rundown of my dataset?,dataset,Explain my dataset
+Can you explain what my dataset means?,dataset,Explain my dataset
+What's going on with my dataset?,dataset,Explain my dataset
+"Hey, anyone have any good laptop recommendations?",off_topic,What's a good laptop to buy?
+What's the best laptop out there?,off_topic,What's a good laptop to buy?
+I'm looking for a new laptop. Anyone know of any good ones?,off_topic,What's a good laptop to buy?
+Any suggestions for a good laptop?,off_topic,What's a good laptop to buy?
+"Hey, I'm shopping for a new laptop. Any good options?",off_topic,What's a good laptop to buy?

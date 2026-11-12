@@ -1,0 +1,196 @@
+text,intent
+how are you?,small_talk
+Fix my wifi,off_topic
+What time is it in London?,off_topic
+Break down expenses by status and month,sql
+thank you so much,small_talk
+Describe the revenue table,dataset
+How are expenses and customers connected?,dataset
+hi,small_talk
+How do vaccines work?,off_topic
+sum of customers per city,sql
+Compare customers across each city,sql
+What data did I upload?,dataset
+Break down invoices by month and month,sql
+What does the month column mean?,dataset
+Is there a department column anywhere?,dataset
+you're helpful,small_talk
+Which date has the most invoices?,sql
+Describe the payments table,dataset
+see you,small_talk
+What is the sum of products?,sql
+Find sales with the highest region,sql
+can you help me?,small_talk
+Tell me about World War 2,off_topic
+What does the region column mean?,dataset
+Which price has the most tickets?,sql
+hmm okay,small_talk
+Compare customers across each department,sql
+What columns are in the products table?,dataset
+Find invoices with the highest category,sql
+Compare customers across each region,sql
+What does the city column mean?,dataset
+Who invented the telephone?,off_topic
+What files did I upload?,dataset
+Break down revenue by category and month,sql
+average payments per category,sql
+What columns are in the expenses table?,dataset
+what can you do?,small_talk
+Find employees with the highest status,sql
+good evening,small_talk
+What was the maximum products in 2025?,sql
+Recommend a movie,off_topic
+List all tickets where price is 2025,sql
+Describe the employees table,dataset
+Which customers bought the most inventory?,sql
+Which table has date?,dataset
+What does the date column mean?,dataset
+How are tickets and customers connected?,dataset
+Show me inventory by city,sql
+number of invoices per region,sql
+What is the average revenue?,sql
+How are payments and customers connected?,dataset
+Which table has city?,dataset
+Find inventory with the highest city,sql
+Who won the cricket match?,off_topic
+Find orders with the highest status,sql
+Is there a month column anywhere?,dataset
+What was the sum of inventory in 2025?,sql
+Give me inventory grouped by city,sql
+Show me expenses by month,sql
+hello TableTalk,small_talk
+cool,small_talk
+thanks,small_talk
+What columns are in the tickets table?,dataset
+What columns are in the revenue table?,dataset
+Write an email to my boss,off_topic
+Is there a price column anywhere?,dataset
+How many employees were there last month?,sql
+What type is the month column?,dataset
+Give me workout tips,off_topic
+what's your name?,small_talk
+What's the weather today?,off_topic
+total customers per status,sql
+What's the latest news?,off_topic
+List the tables and columns,dataset
+Who is Shah Rukh Khan?,off_topic
+Give me payments grouped by department,sql
+Which region has the most students?,sql
+What was the number of sales in 2025?,sql
+What's the stock price of Apple?,off_topic
+List all orders where month is Mumbai,sql
+that's perfect,small_talk
+Show customers trend over time,sql
+What is the minimum orders?,sql
+Which month has the most products?,sql
+What is in this dataset?,dataset
+sum of orders per region,sql
+List all employees where month is 2025,sql
+Find sales with the highest date,sql
+How do I cook pasta?,off_topic
+Show orders trend over time,sql
+Help me with my maths homework,off_topic
+Write Python code for a game,off_topic
+ok,small_talk
+Give me orders grouped by status,sql
+Find employees with the highest department,sql
+Describe the orders table,dataset
+Show me payments by date,sql
+brilliant,small_talk
+Show inventory trend over time,sql
+Compare students across each department,sql
+Break down expenses by region and month,sql
+hey there,small_talk
+Give me sales grouped by category,sql
+Which table has region?,dataset
+What is the total sales?,sql
+awesome,small_talk
+Find tickets with the highest category,sql
+How are employees and customers connected?,dataset
+who are you?,small_talk
+List all invoices where city is Mumbai,sql
+List all payments where date is Mumbai,sql
+alright,small_talk
+Who is the president of the USA?,off_topic
+total customers per date,sql
+What type is the price column?,dataset
+What type is the city column?,dataset
+sum of inventory per date,sql
+Show students trend over time,sql
+Top 5 orders by region,sql
+Describe the inventory table,dataset
+Which month has the most customers?,sql
+Is there a region column anywhere?,dataset
+Show tickets trend over time,sql
+Book a flight to Delhi,off_topic
+Show me payments by department,sql
+What columns are in the customers table?,dataset
+What is the capital of France?,off_topic
+count of revenue per city,sql
+Describe the sales table,dataset
+Write a story about dragons,off_topic
+How many products were there last month?,sql
+What was the maximum payments in 2025?,sql
+"great, thanks",small_talk
+good morning,small_talk
+Break down employees by date and month,sql
+What does the status column mean?,dataset
+lol,small_talk
+What type is the status column?,dataset
+Show me the structure of my data,dataset
+Translate hello into Spanish,off_topic
+How do I lose weight?,off_topic
+got it,small_talk
+Compare sales across each category,sql
+Summarise this news article,off_topic
+Show revenue trend over time,sql
+Which status has the most payments?,sql
+Give me expenses grouped by city,sql
+bye,small_talk
+How many tickets were there last month?,sql
+thanks a lot,small_talk
+What tables do I have?,dataset
+What type is the category column?,dataset
+Explain quantum physics,off_topic
+hello,small_talk
+Compare products across each month,sql
+Which tables are related?,dataset
+Which department has the most products?,sql
+List all inventory where category is Pending,sql
+Which department has the most inventory?,sql
+What can I ask about this data?,dataset
+What was the count of students in 2025?,sql
+Give me an overview of the data,dataset
+How many orders were there last month?,sql
+Break down students by city and month,sql
+nice,small_talk
+wow,small_talk
+Top 5 students by date,sql
+What should I name my dog?,off_topic
+What is the minimum expenses?,sql
+number of products per category,sql
+Give me orders grouped by department,sql
+sounds good,small_talk
+Play some music,off_topic
+Break down products by month and month,sql
+Tell me a joke,off_topic
+cheers,small_talk
+nice to meet you,small_talk
+Compare orders across each city,sql
+What is the count of tickets?,sql
+What is the meaning of life?,off_topic
+How many tables are there?,dataset
+What is bitcoin?,off_topic
+Is there a category column anywhere?,dataset
+Summarise the schema,dataset
+What columns are in the students table?,dataset
+Write me a poem,off_topic
+number of tickets per department,sql
+Which customers bought the most payments?,sql
+Plan my trip to Goa,off_topic
+Which customers bought the most invoices?,sql
+What is the count of products?,sql
+What was the minimum employees in 2025?,sql
+List all students where status is Mumbai,sql
+Explain my dataset,dataset
+What's a good laptop to buy?,off_topic

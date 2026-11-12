@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Local caches
+models/embedding_cache.joblib
+
+# Eval run reports (regenerate any time)
+evals/results/

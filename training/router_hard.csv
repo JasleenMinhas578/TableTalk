@@ -1,0 +1,257 @@
+text,intent
+What is total revenue?,sql
+What does revenue mean?,dataset
+How many orders are there?,sql
+How many tables are there?,dataset
+List the customers,sql
+List the columns in customers,dataset
+Show me the status values,sql
+What is the status column?,dataset
+Which city has the most customers?,sql
+Which table has the city column?,dataset
+How many rows are in orders?,sql
+What is in the orders table?,dataset
+What are the distinct categories?,sql
+Is category a text column?,dataset
+Show 10 rows from products,sql
+Describe the products table,dataset
+What were our sales in March?,sql
+What were Apple's sales in March?,off_topic
+Average price of products,sql
+Average price of petrol in India,off_topic
+Top 5 customers by spend,sql
+Top 5 richest people in the world,off_topic
+How many employees do we have?,sql
+How many employees does Google have?,off_topic
+Trend of revenue over time,sql
+Trend of gold prices this year,off_topic
+What's the population of India,off_topic
+GDP of the United States,off_topic
+what is 20% of 500,off_topic
+how many people live in Tokyo,off_topic
+average salary of a data scientist in Canada,off_topic
+total number of countries in the world,off_topic
+what's the inflation rate this year,off_topic
+square root of 144,off_topic
+how many employees does Amazon have,off_topic
+explain cloud computing,off_topic
+what is a neural network,off_topic
+what is SQL?,off_topic
+Write SQL to get total sales,sql
+What is a foreign key?,off_topic
+Which columns are foreign keys?,dataset
+What can I ask about this data?,dataset
+What can you do?,small_talk
+how do you answer my questions?,small_talk
+what model are you?,small_talk
+are you an AI?,small_talk
+how does this app work?,small_talk
+"thanks, that sales chart was great",small_talk
+"ok cool, got the orders",small_talk
+"hello, can you look at my data?",dataset
+thanks! now show total orders,sql
+total sales kitni hui?,sql
+har city ke kitne customers hain,sql
+sabse mehenga product kaunsa hai,sql
+pichle mahine kitne orders aaye,sql
+kis customer ne sabse zyada orders kiye,sql
+cancelled orders dikhao,sql
+kaun kaun si tables hain,dataset
+orders table mein kaunse columns hain,dataset
+status column ka matlab kya hai,dataset
+data ke baare mein batao,dataset
+dhanyavaad,small_talk
+theek hai,small_talk
+acha thanks,small_talk
+kaise ho?,small_talk
+tum kya kar sakte ho?,small_talk
+cricket ka score kya hai,off_topic
+ek joke sunao,off_topic
+biryani kaise banate hain,off_topic
+delhi mein mausam kaisa hai,off_topic
+revenue by month,sql
+orders per city pls,sql
+top customer?,sql
+most popular category,sql
+how many custmers do we have,sql
+totl quantity sold,sql
+avg price per categry,sql
+sales last week,sql
+count delivered,sql
+orders where status is pending,sql
+customers from delhi,sql
+laptop orders,sql
+who bought a webcam,sql
+cheapest product,sql
+most expensive item sold,sql
+orders in january,sql
+q3 revenue,sql
+products under 50,sql
+break down orders by status and month,sql
+which customers ordered more than 5 times,sql
+repeat customers count,sql
+products ordered by only one customer,sql
+first order date for each customer,sql
+days between signup and first order,sql
+running total of sales by date,sql
+rank products by revenue,sql
+share of revenue by category,sql
+how did sales change from september to october,sql
+orders per customer on average,sql
+customers with no orders since june,sql
+which day of the week gets most orders,sql
+what is the total quantity,sql
+what is our best selling product,sql
+what's the average order size,sql
+what are the cities customers live in,sql
+what are the possible order statuses,sql
+har product ki total sale batao,sql
+kis mahine sabse zyada orders aaye,sql
+mumbai ke customers dikhao,sql
+pending orders kitne hain,sql
+average price kya hai products ka,sql
+top 5 customers nikalo,sql
+delivered aur cancelled orders compare karo,sql
+laptop kitni baar bika,sql
+is saal ka revenue batao,sql
+har category mein kitne products hain,sql
+"hi, can you show me total sales",sql
+"thanks, now give revenue by city",sql
+hello! how many orders are pending?,sql
+"ok cool, top products next",sql
+what fields do customers have,dataset
+columns in products?,dataset
+describe orders,dataset
+what's the primary key of orders,dataset
+does orders have a customer column,dataset
+how do these tables connect,dataset
+show me the schema,dataset
+which tables did my excel create,dataset
+what does product_id refer to,dataset
+what's the data type of order_date,dataset
+is signup_date a date or text,dataset
+how many columns in customers,dataset
+how many rows did you load,dataset
+explain the relationship between orders and customers,dataset
+what sheet was customers from,dataset
+which columns have missing values,dataset
+are there duplicate ids,dataset
+what does the status column hold,dataset
+list all column names,dataset
+what can I query here,dataset
+what info is in the products table,dataset
+which table should I use for prices,dataset
+where is the city stored,dataset
+is quantity per order or per product,dataset
+what's a row in orders,dataset
+give me a quick tour of my data,dataset
+what does each table represent,dataset
+summary of my uploaded files,dataset
+how big is my dataset,dataset
+what does the confidence on that link mean,dataset
+kitni tables bani hain,dataset
+customers table mein kya hai,dataset
+columns ki list do,dataset
+orders aur products kaise jude hain,dataset
+price column ka type kya hai,dataset
+maine kaunsi files upload ki,dataset
+schema samjhao,dataset
+data ka overview do,dataset
+what does revenue column contain,dataset
+which table has customer names,dataset
+is there a revenue column or do I calculate it,dataset
+what's stored in quantity,dataset
+hii,small_talk
+heyyy,small_talk
+yo,small_talk
+sup,small_talk
+morning!,small_talk
+gm,small_talk
+thank youu,small_talk
+ty,small_talk
+tysm,small_talk
+much appreciated,small_talk
+"great, that helps",small_talk
+makes sense,small_talk
+oh nice,small_talk
+awesome work,small_talk
+brilliant answer,small_talk
+you're smart,small_talk
+lol nice,small_talk
+ok bye,small_talk
+talk later,small_talk
+goodnight,small_talk
+what's your name,small_talk
+who built you,small_talk
+are you human?,small_talk
+what can you help with,small_talk
+how do I use you,small_talk
+can you help me with my data later?,small_talk
+what are your limits,small_talk
+do you remember my data?,small_talk
+is my data private?,small_talk
+that was wrong,small_talk
+not what I asked,small_talk
+try again please,small_talk
+you misunderstood,small_talk
+namaskar,small_talk
+shukriya bhai,small_talk
+bahut badhiya,small_talk
+sahi hai,small_talk
+accha,small_talk
+chalo bye,small_talk
+tum kaun ho,small_talk
+aap kaise kaam karte ho,small_talk
+theek hai samajh gaya,small_talk
+mast,small_talk
+what's the population of brazil,off_topic
+how much is a dollar in euros,off_topic
+price of bitcoin today,off_topic
+average height of men in india,off_topic
+total area of canada,off_topic
+how many states in the US,off_topic
+what was india's gdp growth last year,off_topic
+unemployment rate in canada,off_topic
+how many calories in a banana,off_topic
+what's 12 times 15,off_topic
+convert 5 km to miles,off_topic
+how many days until christmas,off_topic
+what's the tallest building,off_topic
+top 10 movies of all time,off_topic
+best selling car in 2025,off_topic
+richest company in the world,off_topic
+average rent in toronto,off_topic
+how many people use instagram,off_topic
+how do I write a sql join,off_topic
+what is a database,off_topic
+explain normalization,off_topic
+what is pandas,off_topic
+how does duckdb work,off_topic
+what's the difference between sql and nosql,off_topic
+teach me python,off_topic
+what is machine learning,off_topic
+how do LLMs work,off_topic
+write my resume,off_topic
+summarize this pdf,off_topic
+make a powerpoint,off_topic
+send an email to john,off_topic
+set a reminder for 5pm,off_topic
+order pizza,off_topic
+find me a job,off_topic
+write a song,off_topic
+translate this to french,off_topic
+create a logo,off_topic
+help me with my essay,off_topic
+should I learn react or vue,off_topic
+is coffee bad for you,off_topic
+how to be productive,off_topic
+meaning of dreams,off_topic
+what's your favourite movie,off_topic
+aaj kya news hai,off_topic
+bollywood ki nayi movie kaunsi hai,off_topic
+chai kaise banate hain,off_topic
+mujhe gana sunao,off_topic
+petrol ka rate kya hai,off_topic
+india ki population kitni hai,off_topic
+mera resume likho,off_topic
+python sikhao,off_topic
