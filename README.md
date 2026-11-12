@@ -13,6 +13,12 @@ Everything runs on your own computer: local models through Ollama, no paid APIs,
   <img src="docs/images/data-map.png" alt="Data map: orders linked to customers and products" width="49%">
 </p>
 
+## Demo
+
+![TableTalk demo: loading sheets, the data map, routing, question to SQL, rephrasing and evals](docs/images/demo.gif)
+
+[Watch the full-quality video (MP4, 80 seconds)](docs/demo/tabletalk-demo.mp4)
+
 ## What it does
 
 | Feature | What it does | How it works |
